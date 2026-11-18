@@ -1,0 +1,14 @@
+title: My New Website
+description: A website built with Jekyll
+url: ""
+baseurl: ""
+
+markdown: kramdown
+
+permalink: /:categories/:title/
+
+exclude:
+  - .devcontainer
+  - Gemfile
+  - Gemfile.lock
+  - README.md
